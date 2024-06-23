@@ -1,0 +1,73 @@
+/* src/assets/css/Reviews.css */
+.reviews-section {
+    background-color: #f7f7f7;
+    padding: 24px 0;
+  }
+  
+  .reviews-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  .reviews-text-center {
+    text-align: center;
+  }
+  
+  .reviews-font-tertiary {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #333;
+  }
+  
+  .reviews-font-primary {
+    font-family: 'Georgia', serif;
+    color: #222;
+  }
+  
+  .reviews-form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .reviews-form-item {
+    margin-bottom: 20px;
+  }
+  
+  .reviews-form-item label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .reviews-form-item input,
+  .reviews-form-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reviews-form-item textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .reviews-submit-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .reviews-submit-button:hover {
+    background-color: #004494;
+  }
+  

@@ -1,0 +1,41 @@
+.dashboard {
+  display: flex;
+}
+
+.table-room {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  content: center;
+}
+
+.list-room {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.list-room h2 {
+  margin-bottom: 20px;
+}
+
+.list-room table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-room table, .list-room th, .list-room td {
+  border: 1px solid #ddd;
+}
+
+.list-room th, .list-room td {
+  padding: 8px;
+  text-align: left;
+}
+
+.list-room th {
+  background-color: #f4f4f4;
+}
+
+.list-room img {
+  width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+}
